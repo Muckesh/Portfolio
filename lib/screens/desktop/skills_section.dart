@@ -35,12 +35,13 @@ class SkillsSection extends StatelessWidget {
               height: height * 0.1,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 // Frontend
                 _SkillsCard(height: height, width: width),
                 _SkillsCard(height: height, width: width),
                 // Backend
-                Container(),
+                // Container(),
               ],
             ),
           ],
