@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:portfolio/screens/desktop/projects_section.dart';
 import 'package:portfolio/screens/desktop/skills_section.dart';
 
 import 'about_section.dart';
@@ -22,6 +23,7 @@ class DesktopMainScreen extends StatelessWidget {
     HomeSection(),
     AboutSection(),
     SkillsSection(),
+    ProjectsSection(),
     //"Projects",
 
     // "Contact",
@@ -40,7 +42,7 @@ class DesktopMainScreen extends StatelessWidget {
       "Home": 0,
       "About": 1,
       "Skills": 2,
-      //"Projects": 3,
+      "Projects": 3,
       // "Contact": MediaQuery.of(context).size.height * 4 / 1.5,
     };
     final ScrollController scrollController = ScrollController();

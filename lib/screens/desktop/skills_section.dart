@@ -65,7 +65,7 @@ class _SkillsCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(30),
-      height: height * 0.30,
+      height: height * 0.35,
       width: width * 0.30,
       decoration: BoxDecoration(
         color: Colors.white,
